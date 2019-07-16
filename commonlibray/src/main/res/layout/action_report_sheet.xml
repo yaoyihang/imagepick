@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#50000000"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_40"
+            android:background="@drawable/half_theme_common_shape"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/common_normal_size"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/half_common_shape"
+            android:orientation="vertical"></LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_45"
+            android:background="@color/white_color"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/normal_gray"
+            android:textSize="@dimen/common_middle_size" />
+
+    </LinearLayout>
+
+</LinearLayout>
